@@ -29,3 +29,5 @@ To use our source code to design a genome-wide sgRNA library, clone this reposit
 
 <code>git clone https://github.com/ianwheeldon/Kphaffii_library_design.git/<code>
 
+Running execute.sh would download Yarrowia lipolytica 
+
