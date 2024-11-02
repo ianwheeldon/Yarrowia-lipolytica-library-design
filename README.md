@@ -3,7 +3,7 @@ The scripts presented here can be used for designing an n-fold coverage sgRNA li
 # 1.0 Publication
 
 # 2.0 Prerequsite
-python 2.7.14
+python 2.7.14 \n
 scipy 1.2.2
 gffutils 0.10.1
 mySQL-python 1.2.3
