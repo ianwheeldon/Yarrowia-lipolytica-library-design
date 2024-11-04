@@ -3,7 +3,7 @@ The scripts presented here can be used for designing an 6-fold coverage sgRNAs t
 
 # Publication
 
-## Prerequsite
+## Prerequisite
 python 2.7.14
 
 scipy 1.2.2
