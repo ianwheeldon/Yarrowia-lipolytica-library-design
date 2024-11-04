@@ -36,7 +36,7 @@ Running <code>execute.sh</code> would download _Yarrowia lipolytica_'s genome fr
 
 <code>cd library_design/chopchop</code>
 
-<h3>Run example on _Yarrowia lipolytica_ CLIB89 genomic data</h3>
+<h3>Run example on Yarrowia lipolytica CLIB89 genomic data</h3>
 
 To make sure cCHOPCHOP is running properly, run this command as an example:
 
