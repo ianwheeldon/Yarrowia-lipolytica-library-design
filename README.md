@@ -27,7 +27,7 @@ The first step in designing the CRISPR-Cas9 sgRNA library using our codes is to 
 
 To use our source code to design a genome-wide sgRNA library, clone this repository:
 
-<code>git clone https://github.com/ianwheeldon/Kphaffii_library_design.git/<code>
+<code>git clone https://github.com/ianwheeldon/Yarrowia_lipolytica_library_design.git/<code>
 
-Running execute.sh would download Yarrowia lipolytica 
+Running <code>execute.sh<code> would download Yarrowia lipolytica's genome from NCBI website, clone CHOPCHOP repository, and make the necessary files for running CHOPCHOP.
 
