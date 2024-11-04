@@ -32,4 +32,9 @@ To use our source code to design a genome-wide sgRNA library, clone this reposit
 Running <code>execute.sh</code> would download _Yarrowia lipolytica_'s genome from NCBI website, clone CHOPCHOP repository, and make the necessary files for running CHOPCHOP.
 
 <code>bash execute.sh</code>
+<code>cd library_design/chopchop</code>
+
+Run this command:
+
+<code>./chopchop.py -T 1 -M NGG --maxMismatches 3 -g 20 -G GS115 -o Results -Target CP014715.1:5164-5200 --scoringMethod ALL</code>
 
