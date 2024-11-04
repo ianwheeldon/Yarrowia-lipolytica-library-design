@@ -1,5 +1,6 @@
 # Yarrowia-lipolytica-library-design
-The scripts presented here can be used for designing an n-fold coverage sgRNA library using CRISPR-Cas9 system for _Yarrowia lipolytica_, capable of targeting specific regions within each feature of the genome (i.e., gene, coding sequence, exon, etc.). These scripts can also be used to design sgRNA libraries for any organism of interest with a haploid genome.
+The scripts presented here can be used for designing an 6-fold coverage sgRNAs targeting the first 40% of all coding sequences and tRNA regions within _Yarrowia lipolytica_ CLIB89 genome. These scripts can be modified as needed for targeting other loci or other haploid organisms and to design libraries with various coverages. 
+
 # Publication
 
 ## Prerequsite
@@ -35,7 +36,7 @@ Running <code>execute.sh</code> would download _Yarrowia lipolytica_'s genome fr
 
 <code>cd library_design/chopchop</code>
 
-<h3>3.2 Run example on Komagataella phaffii GS115 genomic data</h3>
+<h3>Run example on _Yarrowia lipolytica_ CLIB89 genomic data</h3>
 
 To make sure cCHOPCHOP is running properly, run this command as an example:
 
@@ -57,9 +58,9 @@ You should get these results:
 11      CTATCATATGGCTTGATTGTGGG NC_090770.1:5165        +       35      0       0       0       0       0       0.41    0.22    43.68   0.61    0.00    0.00    16.49     25.21
 12      AGAGTATAGTTTAAGTTTCACGG NC_090770.1:5128        -       25      0       0       0       0       0       0.38    0.08    35.32   0.58    0.00    0.00    11.83     18.29</code>
 
-<h3>3.3 Designing the genome-wide CRISPR-Cas9 sgRNA library</h3>
+<h3>Designing the genome-wide CRISPR-Cas9 sgRNA library</h3>
 
-Running the <code>Library_design.py</code> code would start designing the library similar to <code>BEST_LIBRARY.csv</code> and <code>CHOPCHOP_Total.csv</code> files in the example directory:
+Running the <code>Library_design.py</code> code would start designing the library and will generate three <code>.csv</code> files: 1- <code>BEST_LIBRARY.csv</code> which is the n-fold coverage library; 2- <code>CHOPCHOP_Total.csv</code> containing all of the sgRNAs CHOPCHOP found within the specified region; and 3- <code>non-targeting.csv </code> that is the list of non-targeting sgRNAs designed based on the library size. 
 
 <code>python Library_design.py</code>
 
