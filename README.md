@@ -35,7 +35,9 @@ Running <code>execute.sh</code> would download _Yarrowia lipolytica_'s genome fr
 
 <code>cd library_design/chopchop</code>
 
-To make sure cCHOPCHOP is running properly, run this command:
+<h3>3.2 Run example on Komagataella phaffii GS115 genomic data</h3>
+
+To make sure cCHOPCHOP is running properly, run this command as an example:
 
 <code>./chopchop.py -T 1 -M NGG --maxMismatches 3 -g 20 -G CLIB89 -o Results -Target NC_090770.1:5100-5200 --scoringMethod ALL</code>
 
@@ -54,4 +56,10 @@ You should get these results:
 10      CAGCACTGTGGAACATGCATGGG NC_090770.1:5089        -       50      0       0       0       0       1       0.59    0.40    63.49   0.69    0.00    0.00    21.82     68.88
 11      CTATCATATGGCTTGATTGTGGG NC_090770.1:5165        +       35      0       0       0       0       0       0.41    0.22    43.68   0.61    0.00    0.00    16.49     25.21
 12      AGAGTATAGTTTAAGTTTCACGG NC_090770.1:5128        -       25      0       0       0       0       0       0.38    0.08    35.32   0.58    0.00    0.00    11.83     18.29</code>
+
+<h3>3.3 Designing the genome-wide CRISPR-Cas9 sgRNA library</h3>
+
+Running the <code>Library_design.py</code> code would start designing the library similar to <code>BEST_LIBRARY.csv</code> and <code>CHOPCHOP_Total.csv</code> files in the example directory:
+
+<code>python Library_design.py</code>
 
