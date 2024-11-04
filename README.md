@@ -26,7 +26,10 @@ Laptop or desktop computer that meets the requirements to run python 2.7.14
 The first step in designing the CRISPR-Cas9 sgRNA library using our codes is to be able to run CHOPCHOP v3 on the command line (https://doi.org/10.1093/nar/gkz365). All the necessary requirements and step-by-step installation guides for CHOPCHOP v3 are explained by its authors here: https://bitbucket.org/valenlab/chopchop/src/master/. After installation, you should be able to run the examples mentioned on their website properly.
 
 To use our source code to design a genome-wide sgRNA library, clone this repository: 
-<code>git clone https://github.com/ianwheeldon/Yarrowia_lipolytica_library_design.git/<code>
-Running <code>execute.sh<code> would download Yarrowia lipolytica's genome from NCBI website, clone CHOPCHOP repository, and make the necessary files for running CHOPCHOP.
-<code>bash execute.sh<code>
+
+<code>git clone https://github.com/ianwheeldon/Yarrowia_lipolytica_library_design.git/</code>
+
+Running <code>execute.sh</code> would download Yarrowia lipolytica's genome from NCBI website, clone CHOPCHOP repository, and make the necessary files for running CHOPCHOP.
+
+<code>bash execute.sh</code>
 
