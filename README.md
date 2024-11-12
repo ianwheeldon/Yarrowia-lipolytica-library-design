@@ -38,7 +38,7 @@ Running <code>execute.sh</code> would download _Yarrowia lipolytica_'s genome fr
 
 <h3>Run example on Yarrowia lipolytica CLIB89 genomic data</h3>
 
-To make sure cCHOPCHOP is running properly, run this command as an example:
+To make sure CHOPCHOP is running properly, run this command as an example:
 
 <code>./chopchop.py -T 1 -M NGG --maxMismatches 3 -g 20 -G CLIB89 -o Results -Target NC_090770.1:5100-5200 --scoringMethod ALL</code>
 
