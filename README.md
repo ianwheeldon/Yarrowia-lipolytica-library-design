@@ -62,7 +62,9 @@ You should get these results:
 
 Running the <code>Library_design.py</code> code would start designing the library and will generate three <code>.csv</code> files: 1- <code>BEST_LIBRARY.csv</code> which is the n-fold coverage library; 2- <code>CHOPCHOP_Total.csv</code> containing all of the sgRNAs CHOPCHOP found within the specified region; and 3- <code>non-targeting.csv</code> that is the list of non-targeting sgRNAs designed based on the library size. 
 
+<code>cp ../../Library_design.py ./ </code>
+
 <code>python Library_design.py</code>
 
-<code>cp ../../Library_design.py ./ </code>
+
 
