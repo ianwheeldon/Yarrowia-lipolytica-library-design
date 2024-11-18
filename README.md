@@ -64,3 +64,5 @@ Running the <code>Library_design.py</code> code would start designing the librar
 
 <code>python Library_design.py</code>
 
+<code>cp ../../Library_design.py ./ </code>
+
