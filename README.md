@@ -60,11 +60,12 @@ You should get these results:
 
 <h3>Designing the genome-wide CRISPR-Cas9 sgRNA library</h3>
 
-Running the <code>Library_design.py</code> code would start designing the library and will generate three <code>.csv</code> files: 1- <code>BEST_LIBRARY.csv</code> which is the n-fold coverage library; 2- <code>CHOPCHOP_Total.csv</code> containing all of the sgRNAs CHOPCHOP found within the specified region; and 3- <code>non-targeting.csv</code> that is the list of non-targeting sgRNAs designed based on the library size. 
+Running the <code>Library_design.py</code> code would start designing the library and will generate three <code>.csv</code> files: 1- <code>BEST_LIBRARY.csv</code> which is the n-fold coverage library; 2- <code>CHOPCHOP_Total.csv</code> containing all of the sgRNAs CHOPCHOP found within the specified region (in the case of these scripts, the code would generate a 6-fold coverage sgRNA library targeting the first 40% of each coding sequence and tRNA genes); and 3- <code>non-targeting.csv</code> that is the list of non-targeting sgRNAs designed based on the library size. 
 
 <code>cp ../../Library_design.py ./ </code>
 
 <code>python Library_design.py</code>
+
 
 
 
